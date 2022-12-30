@@ -1,0 +1,26 @@
+/**Mobile css**/
+@media only screen and (max-width: 600px) {
+
+    .center{
+        width: 100% !important;
+    }
+    .box-sty{
+        height: 95vh !important;
+    }
+    .m-row{
+        padding: 10px;
+    }
+}
+
+
+/**Tablet**/
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .center{
+        width: 70% !important;
+    }
+    .box-sty{
+        height: 95vh !important;
+    }
+}

@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap");
+body{
+    height: 100vh;
+    font-family: "Poppins";
+}
+.bg-clr{
+    background: rgb(255,178,120);
+    background: linear-gradient(90deg, rgba(255,178,120,1) 31%, rgba(249,150,76,1) 100%);
+}
+.light-theme{
+    background-color: #ebebeb;
+}
+
+.box-div{
+    padding-top: 2%;
+   
+}
+/* .center {
+    margin: auto;
+    padding: 10px;
+} */
+.box-sty{
+    border-radius: 50px;
+    height: 94vh;
+    
+}
+.h-10{
+    height: 10%;
+}
+.h-20{
+    height: 20%;
+}
+.h-30{
+    height: 30%;
+}
+.pull-right{
+    text-align: right; 
+}
+.light-theme .type-text-area{
+    padding: 10px;
+}
+.light-theme .button-area-box .btn-cal{
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 3px 1px #d9d6d6;
+    width: 100%;
+    margin-bottom:10px;
+    margin-top: 10px;
+    color: #919191;
+    font-size: 18px;
+}
+.light-theme .button-area-box .equal-btn{
+    background-color: #ee802e;
+    box-shadow: 0px 2px 3px 1px #999999;
+    width: 100%;
+    margin-bottom:10px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.light-theme .button-area-box{
+    position: absolute;
+    bottom: 4%;
+    padding: 0px 5%;
+}
+.padding-unset{
+    padding-left:5px !important;
+    padding-right:5px !important;
+}
+.p-15{
+    padding: 15px;
+} 
+.padding-remove{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.txt-end{
+    text-align-last: end;
+}
+.remove-pointer{
+    color: transparent;
+    text-shadow: 0px 0px 0px rgb(23, 23, 23);
+    resize: none;
+}
+.light-theme .button-area-box .textarea-style{
+    border: unset !important;
+    font-size: 20px;
+}
+.light-theme .button-area-box .textarea-style:focus-visible{
+    outline: none !important;
+    background-color: #ebebeb;
+    
+}
+.hide{
+    display: none !important;
+}
+.hide-txt{
+    background-color: transparent !important;
+    color: transparent !important;
+    position: absolute !important;
+    z-index:99999;
+}
+.txt-st{
+    color: coral;
+    position: absolute;  
+    bottom: 5px;
+    right: 10px;
+}
+.result-text{
+    text-align-last: end;
+    font-size: 34px;
+}
+.mode-btn{
+    width: 10%;
+    text-align: center;
+    font-size: 40px;
+    position: fixed;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+
+
+
+.dark-theme{
+    background-color: #243441;
+}
+.dark-theme .type-text-area{
+    padding: 10px;
+}
+.dark-theme .button-area-box .btn-cal{
+    background-color: #243441;
+    box-shadow: 0px 2px 3px 1px #222222;
+    width: 100%;
+    margin-bottom:10px;
+    margin-top: 10px;
+    color: #919191;
+    font-size: 18px;
+}
+.dark-theme .button-area-box .equal-btn{
+    background-color: #ee802e;
+    box-shadow: 0px 2px 3px 1px #222222;
+    width: 100%;
+    margin-bottom:10px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.dark-theme .button-area-box{
+    position: absolute;
+    bottom: 4%;
+    padding: 0px 5%;
+}
+
+.dark-theme .button-area-box .textarea-style{
+    border: unset !important;
+    font-size: 20px;
+    background-color: #243441;
+    color: #6e7d83;
+}
+.dark-theme .button-area-box .type-text-area .show-result-box .result-text{
+    color: #ffff;
+}
+.mt-30{
+    margin-top: 30px;
+}
